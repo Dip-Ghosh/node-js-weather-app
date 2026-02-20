@@ -1,3 +1,6 @@
+[functions]
+  included_files = ["templates/**"]
+
 [build]
   command = "npm install"
   publish = "public"      # Tells Netlify to look at your main folder
